@@ -2,9 +2,9 @@
 
 namespace KinDigi\Country;
 
+use KinDigi\Country\Commands\CountryCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use KinDigi\Country\Commands\CountryCommand;
 
 class CountryServiceProvider extends PackageServiceProvider
 {
