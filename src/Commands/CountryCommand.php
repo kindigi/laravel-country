@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace KinDigi\Country\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class CountryCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'laravel-country';
 
     public $description = 'My command';
 

@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace KinDigi\Country;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use VendorName\Skeleton\Commands\SkeletonCommand;
+use KinDigi\Country\Commands\CountryCommand;
 
-class SkeletonServiceProvider extends PackageServiceProvider
+class CountryServiceProvider extends PackageServiceProvider
 {
     public function configurePackage(Package $package): void
     {
@@ -16,10 +16,10 @@ class SkeletonServiceProvider extends PackageServiceProvider
          * More info: https://github.com/spatie/laravel-package-tools
          */
         $package
-            ->name('skeleton')
+            ->name('laravel-country')
             ->hasConfigFile()
             ->hasViews()
-            ->hasMigration('create_skeleton_table')
-            ->hasCommand(SkeletonCommand::class);
+            ->hasMigration('create_laravel-country_table')
+            ->hasCommand(CountryCommand::class);
     }
 }
